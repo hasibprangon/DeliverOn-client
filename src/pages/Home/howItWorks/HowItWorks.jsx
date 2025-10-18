@@ -4,8 +4,8 @@ const HowItWorks = () => {
         <div className="mb-5 max-w-6xl mx-auto">
             <h2 className="font-extrabold text-3xl mb-5 text-[#03373d] ">How it Works</h2>
 
-            <div className='lg:flex gap-5'>
-                <div className="bg-amber-50 lg:w-96 shadow-lg rounded-3xl p-5 lg:mb-0 md:mb-0 mb-3">
+            <div className='lg:flex gap-5 '>
+                <div className="bg-[#CAEB66] lg:w-96 shadow-lg hover:shadow-2xl rounded-3xl p-5 lg:mb-0 md:mb-0 mb-3">
                     <figure>
                         <img
                             src= {bookingIcon} className='mx-5'/>
@@ -18,7 +18,7 @@ const HowItWorks = () => {
                     </div>
                 </div>
 
-                <div className="bg-amber-50 lg:w-96 shadow-lg rounded-3xl p-5 lg:mb-0 md:mb-0 mb-3">
+                <div className="bg-[#CAEB66] lg:w-96 shadow-lg rounded-3xl p-5 lg:mb-0 md:mb-0 mb-3 hover:shadow-2xl">
                     <figure>
                         <img
                             src= {bookingIcon} className='mx-5'/>
@@ -31,7 +31,7 @@ const HowItWorks = () => {
                     </div>
                 </div>
 
-                <div className="bg-amber-50 lg:w-96 shadow-lg rounded-3xl p-5 lg:mb-0 md:mb-0 mb-3">
+                <div className="bg-[#CAEB66] lg:w-96 shadow-lg rounded-3xl p-5 lg:mb-0 md:mb-0 mb-3 hover:shadow-2xl">
                     <figure>
                         <img
                             src= {bookingIcon} className='mx-5'/>
@@ -44,7 +44,7 @@ const HowItWorks = () => {
                     </div>
                 </div>
 
-                <div className="bg-amber-50 lg:w-96 shadow-lg rounded-3xl p-5 lg:mb-0 md:mb-0 mb-3">
+                <div className="bg-[#CAEB66] lg:w-96 shadow-lg rounded-3xl p-5 lg:mb-0 md:mb-0 mb-3 hover:shadow-2xl">
                     <figure>
                         <img
                             src= {bookingIcon} className='mx-5'/>

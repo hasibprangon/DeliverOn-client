@@ -19,7 +19,7 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <NavLink to='/'>
+                <NavLink to='/' className='text-[#03373d]'>
                     <DeliverOnLogo></DeliverOnLogo>
                 </NavLink>
             </div>
