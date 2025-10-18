@@ -1,4 +1,3 @@
-import React from 'react';
 import DeliverOnLogo from '../DeliverOnLogo/DeliverOnLogo';
 
 const Footer = () => {
