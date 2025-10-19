@@ -1,4 +1,5 @@
 import Banner from '../Banner/Banner';
+import FeaturesSection from '../FeaturesSection/FeaturesSection';
 import HowItWorks from '../howItWorks/HowItWorks';
 import OurClients from '../OurClients/OurClients';
 import OurServices from '../Services/OurServices';
@@ -12,6 +13,7 @@ const Home = () => {
             <HowItWorks></HowItWorks>
             <OurServices></OurServices>
             <OurClients></OurClients>
+            <FeaturesSection></FeaturesSection>
         </div>
     );
 };
