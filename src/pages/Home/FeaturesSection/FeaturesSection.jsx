@@ -29,33 +29,33 @@ export default function FeaturesSection() {
     ];
 
     return (
-        <section className="py-12 px-4" data-aos="zoom-in-right">
-            <div className="max-w-4xl mx-auto space-y-6">
+        <section className="py-8 sm:py-12 px-4 sm:px-6" data-aos="zoom-in-right">
+            <div className="max-w-4xl mx-auto space-y-4 sm:space-y-6">
                 {features.map((feature, index) => {
                     const IconComponent = feature.icon;
                     return (
                         <div
                             key={feature.id}
-                            className="bg-white rounded-lg p-8 flex gap-8 items-start shadow-xl hover:shadow-md transition-shadow"
+                            className="bg-white rounded-lg p-4 sm:p-8 flex flex-col sm:flex-row gap-4 sm:gap-8 items-start shadow-xl hover:shadow-md transition-shadow"
                         >
-                            <div className='border-r border-dashed pr-9'>
-                                <div className="flex-shrink-0 w-32 h-32 bg-gray-100 rounded-lg flex items-center justify-center">
+                            <div className='border-b sm:border-b-0 sm:border-r border-dashed pb-4 sm:pb-0 sm:pr-9 flex-shrink-0'>
+                                <div className="w-24 h-24 sm:w-32 sm:h-32 bg-gray-100 rounded-lg flex items-center justify-center">
 
                                     <img
                                         src={images[index]}
                                         alt={feature.title}
-                                        className="w-24 h-24 object-contain"
+                                        className="w-16 h-16 sm:w-24 sm:h-24 object-contain"
                                     />
                                 </div>
                             </div>
 
                             {/* Content Area */}
-                            <div className="flex-1 pt-2">
-                                <h3 className="text-xl font-bold text-[#03373d] mb-3 flex items-center gap-3">
+                            <div className="flex-1 pt-0 sm:pt-2">
+                                <h3 className="text-lg sm:text-xl font-bold text-[#03373d] mb-2 sm:mb-3 flex items-center gap-2 sm:gap-3">
                                     {feature.title}
                                     <IconComponent size={25} className="text-gray-400" />
                                 </h3>
-                                <p className="text-[#606060] leading-relaxed text-sm">
+                                <p className="text-[#606060] leading-relaxed text-xs sm:text-sm">
                                     {feature.description}
                                 </p>
                             </div>

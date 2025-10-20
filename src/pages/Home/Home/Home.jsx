@@ -1,4 +1,5 @@
 import Banner from '../Banner/Banner';
+import BeMerchant from '../BeMerchant/BeMerchant';
 import FeaturesSection from '../FeaturesSection/FeaturesSection';
 import HowItWorks from '../howItWorks/HowItWorks';
 import OurClients from '../OurClients/OurClients';
@@ -14,6 +15,7 @@ const Home = () => {
             <OurServices></OurServices>
             <OurClients></OurClients>
             <FeaturesSection></FeaturesSection>
+            <BeMerchant/>
         </div>
     );
 };
