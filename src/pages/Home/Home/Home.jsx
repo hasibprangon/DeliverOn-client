@@ -1,5 +1,6 @@
 import Banner from '../Banner/Banner';
 import BeMerchant from '../BeMerchant/BeMerchant';
+import FAQSection from '../Faq/FAQSection';
 import FeaturesSection from '../FeaturesSection/FeaturesSection';
 import HowItWorks from '../howItWorks/HowItWorks';
 import OurClients from '../OurClients/OurClients';
@@ -18,6 +19,7 @@ const Home = () => {
             <FeaturesSection></FeaturesSection>
             <BeMerchant/>
             <TestimonialSection></TestimonialSection>
+            <FAQSection></FAQSection>
         </div>
     );
 };
