@@ -17,6 +17,7 @@ const Navbar = () => {
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                         {navLinks}
+                         <button className='btn bg-[#CAEB66] text-base font-medium'>Be a rider</button>
                     </ul>
                 </div>
                 <NavLink to='/' className='text-[#03373d]'>
@@ -29,7 +30,10 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+               <div>
+                <button><NavLink to='/login' className="btn">Login</NavLink></button>
+                <button className='btn hidden md:inline-block bg-[#CAEB66] text-base font-medium md:ml-2'>Be a rider</button>
+               </div>
             </div>
         </div>
     );
