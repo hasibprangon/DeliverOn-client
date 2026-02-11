@@ -1,4 +1,3 @@
-import React from 'react';
 import { Outlet } from 'react-router';
 import img from '../../src/assets/authImage.png'
 import DeliverOnLogo from '../pages/shared/DeliverOnLogo/DeliverOnLogo';
