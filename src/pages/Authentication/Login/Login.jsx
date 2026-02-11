@@ -6,7 +6,11 @@ import { NavLink } from 'react-router';
 
 const Login = () => {
 
-    const {register, handleSubmit} = useForm()
+    const {
+        register,
+        handleSubmit,
+        formState:{errors}
+    } = useForm()
 
     const onSubmit = data => {
         console.log(data);
@@ -24,11 +28,16 @@ const Login = () => {
                         <fieldset className="fieldset">
                             {/* email */}
                             <label className="label">Email</label>
-                            <input type="email" {...register('email',{required: true})} className="input" placeholder="Email" required/>
+                            <input type="email" {...register('email', { required: true })} className="input" placeholder="Email" required />
 
                             {/* pass */}
                             <label className="label">Password</label>
-                            <input type="password" {...register('password', {required: true})} className="input" placeholder="Password" required/>
+                            <input type="password" {...register('password', { required: true, minLength: 6 })} className="input" placeholder="Password"  required/>
+                            {
+                                errors.password?.type === 'minLength' && <p className='text-red-600'>
+                                    Password must be 6 character
+                                </p>
+                            }
 
                             <div><a className="link link-hover">Forgot password?</a></div>
                             <button className="btn bg-[#CAEB66] mt-4">Login</button>
