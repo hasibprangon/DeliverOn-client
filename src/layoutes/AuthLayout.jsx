@@ -7,7 +7,7 @@ const AuthLayout = () => {
     return (
         <div className="p-12 max-w-7xl mx-auto rounded-2xl my-5">
             <NavLink to='/'><DeliverOnLogo></DeliverOnLogo></NavLink>
-            <div className="hero-content mt-3 md:mt-0 flex-col-reverse lg:flex-row-reverse">
+            <div className="hero-content mt-3 md:mt-0 flex-col-reverse lg:flex-row-reverse bg-[#FAFDF0]">
                 <div className='flex-1'>
                     <img
                         src={img}

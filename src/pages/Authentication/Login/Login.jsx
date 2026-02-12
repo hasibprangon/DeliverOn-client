@@ -43,7 +43,7 @@ const Login = () => {
                             <button className="btn bg-[#CAEB66] mt-4">Login</button>
                         </fieldset>
                     </form>
-                    <h2>Don’t have any account? Please <NavLink> <span className=' text-base font-extrabold text-[#CAEB66]'>Register</span></NavLink> </h2>
+                    <h2>Don’t have any account? Please <NavLink to='/register'> <span className=' text-base font-extrabold text-[#CAEB66]'>Register</span></NavLink> </h2>
                     <div className="divider">OR</div>
                     <button className='btn btn-soft'><FcGoogle /> Login with google</button>
                 </div>
